@@ -14,7 +14,7 @@ $(function () {
 
 
   // MUDAR TITULO A CADA 3s
-  setInterval(() => {
+  /* setInterval(() => {
 
     setTimeout(() => {
       $("title").html("Landing");
@@ -63,6 +63,6 @@ $(function () {
     setTimeout(() => {
       $("title").html("PAGE");
     }, 11000);
-  }, 1000, 12000);
+  }, 1000, 12000); */
 
 });
