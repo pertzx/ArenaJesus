@@ -175,13 +175,21 @@ body{
 
 .footer div .inline-block{
     margin: 0 5%;
+    width:70%;
+    text-align: center;
 }
 
-.footer img{
-    width: 50%;
+.footer a{
+    color: rgb(226, 226, 226);
+    text-decoration: none;
+    cursor: pointer;
 }
 
-
+.footer div .inline-block img{
+    margin-top: 1.25%;
+    width: 75px;
+    image-rendering: optimizeQuality;
+}
 
 /* ressponsivo */
 
