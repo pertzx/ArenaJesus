@@ -1,3 +1,4 @@
+
 $(function () {
   $(".flex.center").click(function () {
     $(".header:last-of-type div .inline-block")
@@ -8,6 +9,9 @@ $(function () {
       $(".header:last-of-type div .inline-block").slideToggle();
     }, 4000);
   });
+  
+  //enviar mensagem on click
+
 
   // MUDAR TITULO A CADA 3s
   setInterval(() => {

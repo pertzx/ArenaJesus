@@ -15,8 +15,8 @@
           <div class="flex center">
             <nav>
                 <a href="index.html" class="menu">Eventos e Progamação</a>
-                <a href="pages/index2.html" class="menu">Serviços</a>
-                <a href="pages/index3.html" class="menu">Contato e Localização</a>
+                <a href="pages/index2.html" class="menu">Serviços e Localização</a>
+                <a href="pages/index3.html" class="menu">Contato</a>
             </nav>
           </div>
         </header>
@@ -38,8 +38,8 @@
                   <div class="inline-block">
                     <nav>
                         <a href="index.html" class="block">&RightTriangle; Eventos e Progamação</a>
-                        <a href="pages/index2.html" class="block">&RightTriangle; Serviços</a>
-                        <a href="pages/index3.html" class="block">&RightTriangle; Contato e Localização</a>
+                        <a href="pages/index2.html" class="block">&RightTriangle; Serviços e Localização</a>
+                        <a href="pages/index3.html" class="block">&RightTriangle; Contato</a>
                     </nav>
                   </div>
             </div>
@@ -68,13 +68,12 @@
 
             <div class="flex mainright">
               <div class="conteudo">
-                <h1>Reserva de Eventos</h1>
-                <p>Formulario para reserva de datas e informações sobre como organizar um evento no local.</p>
+                <h1>Reserva de Datas</h1>
                 <form>
-                  <input class="nome w100" type="text" placeholder="nome">
+                  <input class="nome w100" type="text" placeholder="Nome">
                   <p>Dia: <input class="dia w50" type="date" name="dia-reserva" id="dia-reserva"></p>
-                  <p>Descrição: <input class="descricao w50" type="text"></p>
-                  <input class="submit w100" type="submit" value="Enviar">
+                  <p>Descrição: <input class="descricao w100" type="text" maxlength="200" placeholder="Maximo 200 Caracteres"></p>
+                  <input class="submit w100" type="button" value="Enviar" >
                 </form>
               </div>
             </div>
@@ -84,8 +83,13 @@
 
       <footer class="footer center">
         <div class="center">
-          <div class="inline-block"><img src="images/logo-instagram.png" alt=""></div>
-          <div class="inline-block">OUTRA REDE SOCIAL</div>
+          <div class="inline-block">
+            <h1>Redes Sociais</h1>
+            
+            <img src="images/logo-instagram.png" alt="">
+            <a href="#" class="center">@arenajesusit</a>
+            
+          </div>
         </div>
       </footer>
     </main>
