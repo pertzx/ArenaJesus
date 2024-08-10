@@ -1,2 +1,2 @@
-# ArenaJesus
- Projeto do site da arena jesus
+# ArenaJesus - Site
+ Projeto do site da Arena Jesus
