@@ -8,6 +8,12 @@ $(function () {
       $(".header:last-of-type div .inline-block").slideToggle();
     }, 4000);
   });
+    
+  // Ajeitar as fotos automaticamente
+  let fotosV = $(".main .photos-gallery .picture").length
+  let fotoR = $('main .photos-gallery .picture')
+
+
 
   //Quando Clicar no botao, ele redireciona a mensagem pro whatsapp
   $(".submit").click(() => {
@@ -28,7 +34,7 @@ $(function () {
       $(".mainright input").css('border','2px solid green')
       // Comando pra Enviar a mensagem diretamente pro whatsapp web
       window.location.href= `https://api.whatsapp.com/send/?phone=98985385018&text=Olá, meu nome é ${nome.toUpperCase()}, desejo reservar a Arena Jesus no Dia: ${dia}, Descriçao: ${descricao}&type=phone_number&app_absent=0`;
-     }
+      }
   })
 
   /* // MUDAR TITULO A CADA 3s
